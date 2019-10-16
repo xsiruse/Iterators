@@ -29,7 +29,7 @@ def file_read(file):
 def result_write(src_file, dest_file):
     for wi in WikiCountry(src_file):
         with open(dest_file, 'a', encoding='utf-8') as destination:
-            destination.write(f'{wi["Country"]} - [{wi["link"]}]({wi["link"]})\n')
+            destination.write(f'{wi["Country"]} - [{wi["link"]}]({wi["link"]})  \n')
 
 
 def to_hash(dest_file):
