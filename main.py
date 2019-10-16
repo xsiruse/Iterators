@@ -1,4 +1,5 @@
 import hashlib
+from pprint import pprint
 import json
 
 
@@ -33,15 +34,13 @@ def result_write(src_file, dest_file):
 
 
 def to_hash(dest_file):
-    with open(dest_file) as data:
-        for line in data:
-            print(line.strip())
-            print(hashlib.md5(str(line).encode('utf-8')).hexdigest(), end='\n')
+    for line in open(dest_file):
+        yield line.strip(), (hashlib.md5(str(line).encode('utf-8')).hexdigest())
 
 
 def main(src, dest):
     result_write(src, dest)
-    to_hash(dest)
+    pprint(list(to_hash(dest)))
 
 
 if __name__ == '__main__':
