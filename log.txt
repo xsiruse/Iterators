@@ -1,0 +1,20 @@
+2019-10-22 22:22:15.326224	+main+	*countries.json, result.md*	****	-None-	
+============end of record=============
+2019-10-22 22:34:35.140038	+main+	*countries.json, result.md*	****	2019-10-22 22:35:35.139961	+file_read+	*countries.json*	****	-<generator object file_read.<locals>.<genexpr> at 0x000001BEAF04DB48>-	
+============end of record=============
+2019-10-22 22:35:35.139961	+result_write+	*countries.json, result.md*	****	-None-	
+============end of record=============
+2019-10-22 22:35:35.343834	+file_read+	*countries.json*	****	-<generator object file_read.<locals>.<genexpr> at 0x000001BEAF046B48>-	
+============end of record=============
+2019-10-22 22:35:35.552705	+to_hash+	*result.md*	****	-<generator object to_hash at 0x000001BEAEBF3CC8>-	
+============end of record=============
+2019-10-22 22:35:35.138961	+main+	*countries.json, result.md*	****	-None-	
+============end of record=============
+2019-10-22 22:35:35.779565	+file_read+	*countries.json*	****	-<generator object file_read.<locals>.<genexpr> at 0x000001BEAF017B48>-	
+============end of record=============
+2019-10-22 22:35:35.778565	+result_write+	*countries.json, result.md*	****	-None-	
+============end of record=============
+2019-10-22 22:35:36.035406	+file_read+	*countries.json*	****	-<generator object file_read.<locals>.<genexpr> at 0x000001BEAEFDEB48>-	
+============end of record=============
+2019-10-22 22:35:36.184315	+to_hash+	*result.md*	****	-<generator object to_hash at 0x000001BEAEBF3748>-	
+============end of record=============
